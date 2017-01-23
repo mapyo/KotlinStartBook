@@ -1,6 +1,6 @@
 fun main(args: Array<String>) {
-    show(Rational(1, 4) + 1)
-    show(Rational(1, 1) + 2)
+    show(3 + Rational(2, 1))
+    show(1 + Rational(1, 2) + 2)
 }
 
 fun show(rational: Rational) {
